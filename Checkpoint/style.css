@@ -1,0 +1,252 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*navbar */
+nav {
+    display: block;
+    border: 6px ridge rgb(0, 0, 0);
+    background-color: rgba(81, 230, 180, 0.521);
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+nav a:link {
+    color: red;
+}
+a:hover {
+    color: rgb(138, 105, 255);
+}
+
+nav ul{
+    transition:all .5s ease-in-out;
+}
+
+nav ul:hover {
+    font-size:30px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+/* main */ 
+main {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.479);
+    box-shadow: 20px 10px 10px #888888;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+}
+
+/*home */
+#home {
+    display: block;
+}
+
+#home h1{
+    border: black;
+    margin-left: 14em;
+}
+
+#home img{
+    display:block;
+    height: 200px;
+    width: 70%;
+    margin-left: 8em;
+}
+
+#home img:hover{
+    box-shadow: 10px 10px 10px #888888;
+}
+
+
+/*about */
+#about {
+    display: block;
+}
+
+#about #pp{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-style: solid ;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 5px;
+}
+
+#about #pp:hover{
+    box-shadow: 15px 10px 10px #888888;
+    font-size: 23px;
+}
+
+#about ul{
+    margin-left: 10em;
+    font-size: 25px;
+}
+
+#about li:hover{
+    font-size: 30px;
+    color: red;
+}
+
+#about iframe{
+    margin-left: 15em;
+    width: 70%;
+}
+
+/* work */
+#work p{
+    font-size: 25px;
+}
+
+#work h3{
+    color: red;
+    margin-left: 14em;
+}
+
+#work img{
+    margin-left: 14em;
+}
+
+#work img:hover {
+    opacity: 0.5 ;
+}
+
+/* resume */
+
+#resume p{
+    font-size: 25px;
+}
+
+#resume table{
+    margin-left: 10em;
+    font-size: 25px;
+    border-color: blue;
+}
+
+#resume table tr{
+    color: blue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#resume table td{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#resume table th:hover{
+    background-color: rgba(0, 191, 255, 0.308);
+}
+
+#resume table td:hover{
+    background-color: rgba(0, 191, 255, 0.5);
+}
+
+/* contacts */
+
+#contact form  label{
+    font-size: 25px;
+    padding-left: 50px;
+    
+}
+
+#contact textarea{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 14em;
+}
+
+#contact button{
+    background-color: #ee7cc8;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 10px 50px 14em;
+}
+
+#contact button:hover{
+    box-shadow: 10px 10px 10px #888888;
+    font-size: 20px;
+    margin-left: 11em;
+}
+
+#contact p{
+    background-color: #000000be;
+    border: none;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 25px 25px 25px 25px;
+    margin-right: 25em;
+}
+
+/* footer */
+footer {
+    display: block;
+    box-shadow: 20px 10px 10px #888888;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+
+}
+
+footer .button{ 
+    background-color: #000000be;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 35em;
+
+}
+
+footer p{
+    background-color: #000000be;
+    border: none;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 25px 25px 25px 25px;
+}
+
+footer a ,label{
+    color: violet;
+}
+
+footer p:hover , #contact p:hover{
+    box-shadow: 15px 10px 10px #888888;
+}
