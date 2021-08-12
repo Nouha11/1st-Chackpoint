@@ -1,0 +1,357 @@
+@media only screen and (max-width: 600px) {
+
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  }
+
+nav section{
+  margin-left: 12%;
+  padding-right:25% ;
+}
+
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+header a.l1:hover , label , header li a:active{
+    color: #00b39b;
+}
+
+nav a{
+    list-style-type: none;
+    color: #ababab;
+    border: none;
+    
+}
+
+nav section a:hover{
+  color: #ababab;
+  border: none;
+}
+
+nav ul {
+    list-style-type: none;   
+    margin-right: 12%;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* dropdown button */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    color: #ababab;
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: whitesmoke;
+      color: #00b39b;
+    }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #00b39b;;} 
+
+/* &nav */  
+
+main {
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 5%;
+  color: #00b39b;
+}
+
+main .paragraph{
+  grid-gap: 20px 40px ;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  color: #747474;
+  padding-top: 5%;
+  
+}
+
+/* 3 divs */
+
+.plots {
+  display: flex;
+  margin-top: 50px;
+  color: white;
+  
+}
+
+.plots div {
+  margin: 10px;
+  height: 22em;
+  width: 20em;
+  padding: 40px;
+}
+
+.plots h4 {
+  color: white;
+}
+
+.plots img {
+  width: 30px;
+  position: absolute;
+  margin-bottom: 10px;
+  z-index: 500;
+}
+
+/*select */
+.plots  select {
+  border:0px;
+  outline:0px;
+  background: transparent;
+  text-decoration: underline;
+  color: white;
+  text-decoration: underline;
+}
+
+.plots  option {
+  color: black;
+}
+
+.plots section {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+/* &select */
+
+.plots #patients {
+  background: #00ccb1;
+  border-radius: 10px;
+  
+}
+
+.plots div:hover {
+  opacity: 0.8;
+}
+
+.plots #doctors {
+  background: #3d83df;
+  border-radius: 10px;
+}
+
+.plots #clinics {
+  background: #1b2734;
+  border-radius: 10px;
+}
+
+/* companies */
+
+#companies {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#companies a{
+  display: flex;
+}
+
+h4 ,h3 ,h5 {
+  color: #00b39b;
+}
+
+#companies section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#companies a {
+  padding: 20px;
+  color: hsla(0,0%,67%,.7);
+  text-decoration: none;
+}
+
+#companies img {
+  width: 30px;
+  height: 30px;  
+  opacity: 0.2;
+}
+
+#companies img.title {
+  width: 100px;
+  height: 50px;
+  opacity: 0.4;
+}
+
+#companies a:hover  , #companies img:hover{
+  color: #00b39b;
+  opacity: 1;
+}
+
+/* platform */
+
+#platform {
+  background-color: #00ccb12d; 
+  display: flex;
+  padding: 25px;
+}
+
+#platform #plat1 img {
+  width: 200px;
+  height: 20px;
+  margin-top: 200px;
+}
+
+#platform #plat2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content:stretch; 
+}
+
+#platform #plat2 img {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+
+#platform #plat2 section {
+  background-color: white;
+  align-content:stretch;
+  padding: 20px;
+  margin: 25px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* polaroid images */
+
+div#images {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+div.pol {
+  align-content:stretch; 
+  margin: 5px;
+  height: 23em;
+  width: 20em;
+  background-color: white;
+  
+  margin-bottom: 25px;
+}
+
+#image .container img {
+  border-radius: 50px;
+}
+
+div.container button {
+  font-size: 12px;
+  
+}
+
+#images .container button {
+  margin-left: 110px;
+}
+
+#images  #lang button {
+  margin-left: 80px;
+}
+
+div.pol:hover {
+  box-shadow: 10px 10px 10px #abababa6;
+}
+
+div.container a {
+  color: white;
+}
+
+#images .container {
+  display: flex;
+  padding: 20px;
+  color: #747474;
+}
+
+/* text section before images */
+#places #text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* join */
+
+#places #join {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#places #join h4 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.589);
+  padding: 30px;
+}
+
+#places #join button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+/* footer */
+hr {
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 40px;
+  color: #ababab;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
