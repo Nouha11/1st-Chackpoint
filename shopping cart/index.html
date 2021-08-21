@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+          <h1>
+            <span class="shopper">s</span> Shopping Cart
+          </h1>
+          
+          <a href="#" class="X transition is-open">X</a>    
+        </header>
+        
+        <main>
+                  
+          <a href="#" class="btn btn-update" onclick="updt()">Update cart</a>
+          
+          
+          <div class="table">
+
+            <div class="layout-inline row th ">
+              <div class="col col-pro">Product</div>
+              <div class="col col-price align-center "> 
+                Price
+              </div>
+              <div class="col col-qty align-center">QTY</div>
+              <div class="col">Total</div>
+              <div class="col"></div>
+            </div>
+            
+            <div class="layout-inline row tab">
+              
+              <div class="col col-pro layout-inline">
+                <img src="./heart.png" alt="heart"  class="heart"/>
+                <p>Screen Protector</p>
+              </div>
+              
+              <div class="col col-price col-numeric align-center ">
+                <p>19.99 Dt</p>
+              </div>
+      
+              <div class="col col-qty layout-inline">
+                <a href="#" class="qty qty-minus">-</a>
+                  <input readonly type="numeric" value="0" class="qtty"/>
+                <a href="#" class="qty qty-plus">+</a>
+              </div>
+              
+              <div class="col col-total col-numeric">              
+                <div class="total ">
+                    <input readonly readonly type="numeric" value="0" class="totres"/>
+                </div>
+              </div>  
+
+              <div class="col col-numeric align-center">
+                <button class="col button col-numeric"> Delete Item </button>
+              </div>
+
+            </div>
+            
+            <div class="layout-inline row row-bg2 tab">
+      
+              <div class="col col-pro layout-inline">
+                <img src="./heart.png" alt="heart" class="heart"/>
+                <p>Power Bank </p>
+              </div>
+              
+              <div class="col col-price col-numeric align-center ">
+                <p>60.99 Dt</p>
+              </div>
+      
+              <div class="col col-qty  layout-inline">
+                <a href="#" class="qty qty-minus ">-</a>
+                  <input readonly type="numeric" value="0" class="qtty"/>
+                <a href="#" class="qty qty-plus">+</a>
+              </div>
+              
+              <div class="col col-total col-numeric">              
+                <div class="total ">
+                    <input readonly type="numeric" value="0" class="totres"/>
+                </div>
+              </div>       
+            
+              <div class="col col-numeric align-center">
+                <button class="col button col-numeric"> Delete Item  </button>
+              </div>
+
+            </div>
+            
+            <div class="layout-inline row tab">
+              <div class="col col-pro layout-inline">
+                <img src="./heart.png" alt="heart" class="heart"/>
+                <p>Smartphone </p>
+              </div>
+              
+              <div class="col col-price col-numeric align-center ">
+                <p>700.99 Dt</p>
+              </div>
+      
+              <div class="col col-qty layout-inline">
+                <a href="#" class="qty qty-minus">-</a>
+                  <input readonly type="numeric" value="0" class="qtty"/>
+                <a href="#" class="qty qty-plus">+</a>
+              </div>
+              
+              <div class="col col-total col-numeric">              
+                <div class="total ">
+                    <input readonly type="numeric" value="0" class="totres"/>
+                </div>
+              </div>         
+
+               <div class="col col-numeric align-center">
+                <button class="col button col-numeric"> Delete Item </button>
+              </div>
+
+
+            </div>
+
+            <div class="layout-inline row row-bg2 tab">
+              
+              <div class="col col-pro layout-inline">
+                <img src="./heart.png" alt="heart"  class="heart"/>
+                <p>Summer Women Dress </p>
+              </div>
+              
+              <div class="col col-price col-numeric align-center ">
+                <p>105.99 Dt</p>
+              </div>
+      
+              <div class="col col-qty layout-inline">
+                <a href="#" class="qty qty-minus">-</a>
+                  <input readonly type="numeric" value="0" class="qtty"/>
+                <a href="#" class="qty qty-plus">+</a>
+              </div>
+              
+              <div class="col col-total col-numeric">              
+                <div class="total ">
+                    <input readonly type="numeric" value="0" class="totres"/>
+                </div>
+              </div>
+
+              <div class="col col-numeric align-center">
+                <button class="col button col-numeric"> Delete Item </button>
+              </div>
+            </div>
+        
+            <div class="tf">
+               
+              <div class="row layout-inline">
+                <div class="res">
+                   <p>Shipping</p>
+                </div>
+
+                <div class="res">
+                  <input readonly readonly type="numeric" value="1.5" id="shipp"/>
+                </div>
+
+               </div>
+
+                <div class="row layout-inline">
+                 <div class="res">
+                   <p>Total</p>
+                 </div>
+
+                 <div class="res">
+                  <input readonly readonly type="numeric" value="0" id="result"/>
+                 </div>
+
+               </div>
+               
+            </div>     
+
+          </div>
+
+        </main>
+  </div>
+    <script src="./main.js"></script>
+</body>
+</html>
